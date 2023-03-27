@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Pestaña Tabbar',
       theme: ThemeData(
         // This is the theme of your application.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
       home: MyHomePage(),
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
             indicatorColor: Colors.lightGreen,
             indicator: BoxDecoration(
                 borderRadius: BorderRadius.circular(15), // Creates border
-                color: Colors.cyan), //Change background color from here
+                color: Colors.lightGreen), //Change background color from here
             tabs: [
               Tab(icon: Icon(Icons.headphones)),
               Tab(icon: Icon(Icons.cell_wifi)),
